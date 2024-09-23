@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://i.pinimg.com/originals/8f/f4/38/8ff4383ae19030fade110e0a8ff0b1aa.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1{
+    font-weight: normal;
+    font-size:4rem;
+}
+.countdown-container{
+    display: flex;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.text-center{
+    text-align: center;
+}   
+  
